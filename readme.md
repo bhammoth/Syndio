@@ -25,6 +25,7 @@ In pycharm they should get pulled in but if not
 - Add additional browser support other than FF
 
 ##Troubleshooting
-You  may need to give macOS access to you file system to access firefox driver to run tests
+- You  may need to give macOS access to you file system to access firefox driver to run tests
+- https://github.com/bhammoth/Syndio/blob/main/screenshot.png
 
 
