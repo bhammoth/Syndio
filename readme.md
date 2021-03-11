@@ -7,6 +7,8 @@ Selenium requires a driver to interface with the chosen browser. Firefox, for ex
 
 Failure to observe this step will give you an error selenium.common.exceptions.WebDriverException: Message: ‘geckodriver’ executable needs to be in PATH.
 
+Point this to your firefox.app path: https://github.com/bhammoth/Syndio/blob/main/test/TestBase.py#L16
+
 ## Running tests
 You can run the all the tests by using this command:
 
@@ -19,12 +21,12 @@ In pycharm they should get pulled in but if not
 - pip install selenium
 - pip install requests
 
-###Plans to refactor: 
+### Plans to refactor: 
 - Duplicate Code, create functions 
 - Use POM to call objects and not redefine them in every test 
 - Add additional browser support other than FF
 
-##Troubleshooting
+### Troubleshooting
 - You  may need to give macOS access to you file system to access firefox driver to run tests
 - https://github.com/bhammoth/Syndio/blob/main/screenshot.png
 
